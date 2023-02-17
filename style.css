@@ -8,29 +8,27 @@
 
 img {
   vertical-align: bottom;
-}
-
-#header img {
   width: 100%;
 }
 
-#nav {
+.nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   background-color: gray;
   color: #fff;
   height: 50px;
 }
 
-.is-fixed {
+.fixed {
   position: fixed;
   top: 0;
   left: 0;
   z-index: 2;
   width: 100%;
+  background-color: blue;
 }
 
-#main {
+.main {
   height: 300vh;
 }
